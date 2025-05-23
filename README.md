@@ -15,7 +15,10 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  dynamic_pwa: ^1.0.0  # Use the latest version
+  dynamic_pwa:
+    git:
+      url: https://github.com/Janco-SciGrow/dynamic_pwa.git
+      ref: main
 ```
 
 ## Setup
